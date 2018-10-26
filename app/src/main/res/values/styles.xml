@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    -<style name="style_dot_horizontal_line">
+
+    <item name="android:layout_width">match_parent</item>
+
+    <item name="android:layout_height">1dp</item>
+
+    <item name="android:background">@drawable/dot_horizontal_line_bg</item>
+
+</style>
+    -<style name="horizontal_line">
+
+    <item name="android:layout_width">match_parent</item>
+
+    <item name="android:layout_height">1px</item>
+
+    <item name="android:background">@color/c3</item>
+
+</style>
+    -<style name="TabLayoutTextStyle">
+
+    <item name="android:textSize">16sp</item>
+
+</style>
+    -<style name="vertical_line">
+
+    <item name="android:layout_width">1px</item>
+
+    <item name="android:layout_height">match_parent</item>
+
+    <item name="android:background">@color/c3</item>
+
+    </style>
+
+    <style name="style_c12_s16">
+
+    <item name="android:layout_width">match_parent</item>
+
+    <item name="android:layout_height">match_parent</item>
+
+    <item name="android:textColor">@color/c12</item>
+
+    <item name="android:textSize">16sp</item>
+</style>
+
+
+    <style name="CustomCheckBoxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/cartshape_checkbox</item>
+    </style>
+</resources>
